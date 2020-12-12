@@ -18,12 +18,12 @@ export default ({ titlePre = '' }) => {
   return (
     <header className={styles.header}>
       <Head>
-        <title>{titlePre ? `${titlePre} |` : ''} hkoma2jp Blog</title>
+        <title>{titlePre ? `${titlePre} |` : ''} 盡人事聽天命</title>
         <meta
           name="description"
           content="An example Next.js site using Notion for the blog"
         />
-        <meta name="og:title" content="hkoma2jp Blog" />
+        <meta name="og:title" content="盡人事聽天命" />
         <meta property="og:image" content={ogImageUrl} />
         <meta name="twitter:site" content="@hkoma2jp" />
         <meta name="twitter:card" content="summary_large_image" />

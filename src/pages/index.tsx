@@ -8,7 +8,7 @@ export default () => (
   <>
     <Header titlePre="Home" />
     <div className={sharedStyles.layout}>
-      <h1>Welcome</h1>
+      <h1>盡人事聽天命</h1>
     </div>
   </>
 )
