@@ -13,17 +13,17 @@ const contacts = [
   {
     Comp: Twitter,
     alt: 'twitter icon',
-    link: 'https://twitter.com/@@@@@@@@@@',
+    link: 'https://twitter.com/hkoma2jp',
   },
   {
     Comp: GitHub,
     alt: 'github icon',
-    link: 'https://github.com/@@@@@@@@@@',
+    link: 'https://github.com/hkoma2jp',
   },
   {
     Comp: Envelope,
     alt: 'envelope icon',
-    link: 'mailto:@@@@@@@@@@',
+    link: 'mailto:h.koma2.jp@gmail.com?subject=fromBlog',
   },
 ]
 
@@ -38,7 +38,7 @@ export default () => (
       <h1 style={{ marginTop: 0 }}>Contact</h1>
 
       <div className={contactStyles.name}>
-        @ <ExtLink href="https://twitter.com/@@@@@@@@@@">@@@@@@@@@@</ExtLink>
+        @ <ExtLink href="https://twitter.com/hkoma2jp">hkoma2jp</ExtLink>
       </div>
 
       <div className={contactStyles.links}>
