@@ -2,10 +2,6 @@
   padding: 0 5%;
 }
 
-.blogIndex h1 {
-  margin-bottom: 50px;
-}
-
 .previewAlertContainer {
   display: flex;
   justify-content: center;
@@ -63,9 +59,10 @@
 }
 
 .postPreview {
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: 10px auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  width: 100%;
 }
 
 .postPreview:last-child {
@@ -123,10 +120,19 @@
   margin-bottom: 0.5em;
 }
 
+.propContainer {
+  font-size: 0.6em;
+}
+
 .post {
-  max-width: calc(600px + 10%);
+  /* max-width: calc(600px + 10%); */
   margin: 0 auto;
-  padding: 5%;
+  padding: 0 5%;
+  width: 100%;
+}
+
+.post h1 {
+  text-align: center;
 }
 
 .post :global(hr) {
