@@ -46,6 +46,9 @@ body {
 
   /* Hack */
   overflow-x: hidden;
+
+  /* word-break */
+  word-break: break-all;
 }
 
 code[class*='language-'],
